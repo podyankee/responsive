@@ -117,3 +117,39 @@ header .fullheight {
   -o-background-size: cover;
   background-size: cover;
 }
+/* line 5, ../../../components/sass/modules/_intro.scss */
+header .fullheight .hgroup {
+  padding: 100px 0;
+}
+/* line 8, ../../../components/sass/modules/_intro.scss */
+header .fullheight .hgroup h1 {
+  color: #ffffff;
+  font-size: 5em;
+  font-weight: heavy;
+  line-height: .8em;
+  text-shadow: #000000 0 0 20px;
+  text-align: center;
+}
+/* line 16, ../../../components/sass/modules/_intro.scss */
+header .fullheight .hgroup h2 {
+  display: block;
+  color: #ffffff;
+  width: 60%;
+  min-width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #ffffff;
+  margin-top: 15px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 1.3em;
+}
+/* line 29, ../../../components/sass/modules/_intro.scss */
+header .fullheight .hgroup p {
+  text-align: center;
+}
+/* line 32, ../../../components/sass/modules/_intro.scss */
+header .fullheight .hgroup img {
+  padding-top: 50px;
+  min-width: 50px;
+}
