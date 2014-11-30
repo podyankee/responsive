@@ -173,8 +173,27 @@ header #nav:before, header #nav:after {
 header #nav:after {
   clear: both;
 }
-/* line 7, ../../../components/sass/modules/_nav.scss */
+/* line 6, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+header #nav .navbar:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 8, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar .brand {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.33333%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
   float: left;
   font-weight: 600;
   font-family: 200 1.5em/1.5em "Exo2", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -182,7 +201,7 @@ header #nav .navbar .brand {
   text-transform: uppercase;
   background: #df4848;
 }
-/* line 14, ../../../components/sass/modules/_nav.scss */
+/* line 16, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar .brand a {
   color: #ffffff;
   text-decoration: none;
@@ -191,11 +210,21 @@ header #nav .navbar .brand a {
   padding: 10px;
   font-size: 1.5em;
 }
-/* line 25, ../../../components/sass/modules/_nav.scss */
+/* line 26, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar ul {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 66.66667%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+/* line 28, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li {
   float: left;
 }
-/* line 27, ../../../components/sass/modules/_nav.scss */
+/* line 30, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a {
   color: #ffffff;
   font: 200 1.5em/1.5em "Exo2", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -207,27 +236,27 @@ header #nav .navbar ul li a {
   background-position: 2px;
   text-decoration: none;
 }
-/* line 39, ../../../components/sass/modules/_nav.scss */
+/* line 42, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.info {
   background-image: url("../images/icons/info.png");
 }
-/* line 42, ../../../components/sass/modules/_nav.scss */
+/* line 45, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.rooms {
   background-image: url("../images/icons/rooms.png");
 }
-/* line 45, ../../../components/sass/modules/_nav.scss */
+/* line 48, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.dining {
   background-image: url("../images/icons/dining.png");
 }
-/* line 48, ../../../components/sass/modules/_nav.scss */
+/* line 51, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.events {
   background-image: url("../images/icons/events.png");
 }
-/* line 51, ../../../components/sass/modules/_nav.scss */
+/* line 54, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.attractions {
   background-image: url("../images/icons/attractions.png");
 }
-/* line 54, ../../../components/sass/modules/_nav.scss */
+/* line 57, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a:hover {
   background-color: #efc94c;
   color: #063642;
