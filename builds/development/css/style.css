@@ -108,6 +108,38 @@ body {
   position: relative;
   padding: 20px 0;
 }
+/* line 10, ../../../components/sass/_layout.scss */
+.scene article {
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+.scene article:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 1200px) {
+  /* line 7, ../../../components/sass/_layout.scss */
+  .scene {
+    padding: 40px 0;
+  }
+}
+@media (min-width: 960px) {
+  /* line 18, ../../../components/sass/_layout.scss */
+  .scene article {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  .scene article:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
 
 /* line 1, ../../../components/sass/modules/_hotelinfo.scss */
 #hotelinfo {
@@ -174,6 +206,45 @@ body {
   margin-left: 10%;
   line-height: 115%;
   margin-bottom: 5px;
+}
+/* line 40, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo #usefulinfo section#arrivalinfo ul {
+  margin: 0;
+}
+/* line 42, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo #usefulinfo section#arrivalinfo ul li {
+  list-style: none;
+  border-top: 1px solid #ffffff;
+  padding: 15px 0;
+  margin-left: 0;
+}
+/* line 47, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo #usefulinfo section#arrivalinfo ul li strong {
+  color: #efc94c;
+}
+/* line 50, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo #usefulinfo section#arrivalinfo ul li:first-child {
+  border-top: none;
+}
+/* line 58, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo #greenprogram {
+  background-color: rgba(26, 68, 60, 0.5);
+  margin-top: 20px;
+  border: 1px solid #ffffff;
+  padding: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+@media (min-width: 1200px) {
+  /* line 58, ../../../components/sass/modules/_hotelinfo.scss */
+  #hotelinfo #greenprogram {
+    background-image: url("../images/misc/greenplanet.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 120% center;
+    padding-right: 300px;
+  }
 }
 
 /* line 2, ../../../components/sass/modules/_intro.scss */
