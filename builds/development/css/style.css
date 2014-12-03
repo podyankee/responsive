@@ -689,6 +689,11 @@ header #nav .navbar ul li a:hover {
     background-image: none;
   }
 }
+/* line 87, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar ul li a.active {
+  background-color: #df4848;
+  color: #ffffff;
+}
 
 /* line 2, ../../../components/sass/modules/_rooms.scss */
 #rooms header {

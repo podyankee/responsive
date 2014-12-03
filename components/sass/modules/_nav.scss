@@ -84,6 +84,11 @@ header #nav {
 						&.icon{background-image: none;}
 					} //breakpoint
 
+					&.active {
+						background-color: $red;
+						color: $light;
+					}
+
 				} //a
 			} //li
 		} //ul
