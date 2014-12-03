@@ -1,5 +1,7 @@
 $(function() {
 	var topoffset = 43;
+
+	var isTouch = 'ontouchstart' in document.documentElrment;
 	var wheight = $(window).height(); //get hight of the window
 
 	$('.fullheight').css('height', wheight);
@@ -60,7 +62,9 @@ $(function() {
 	}).setPin('#nav').addTo(controller);
 
 	//room animations
-  var roomOrigin = {
+  
+	if(isTouch) {
+		var roomOrigin = {
     bottom: -700,
     opacity: 0,
     scale: 0
@@ -128,7 +132,7 @@ var roomtween = TweenMax.staggerFromTo(
     offset: -topoffset,
     duration: 500
   }).setPin('#manchester').setTween(roomtween).addTo(controller)
-
+	}
 
 	var attractionstween = TweenMax.
 	staggerFromTo('#attractions article', 1, 
